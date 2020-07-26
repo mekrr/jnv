@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Captaincy List</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css">
+        
+        <link rel="stylesheet" href="css/main.css" media="screen" >
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="top-navbar-fixed">
+        <div class="main-wrapper">
+            <div class="content-wrapper">
+                <div class="content-container">
+                    <div class="main-page">
+                        <div class="container-fluid">
+                            <div class="row page-title-div">
+                                <div class="col-md-6">
+                                    <h2 class="title">Captaincy List</h2>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="row breadcrumb-div">
+                                <div class="col-md-6">
+                                    <ul class="breadcrumb">
+                                        <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                                        <li> 24th Batch</li>
+                                        <li class="active">Gregarious</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <div class="panel-title">
+                                                    <h5>View Captaincy List</h5>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body p-20">
+                                                <table id="tabledata" class="display table table-striped table-bordered wrap" cellspacing="0" width="100%">
+                                                    
+
+<thead><tr class="tableizer-firstrow"><th>Position</th><th>Name of the Student (Boy)</th><th>Name of the Student (Girl)</th><th>Name of the In-Charge</th></tr></thead>
+<tfoot><tr class="tableizer-firstrow"><th>Position</th><th>Name of the Student (Boy)</th><th>Name of the Student (Girl)</th><th>Name of the In-Charge</th></tr></tfoot>
+
+
+<tbody>
+ <tr><td>SCHOOL CAPTAIN</td><td>HARIKRISHNAN M</td><td>APARNA C</td><td>PRINCIPAL</td></tr>
+ <tr><td>ACADEMIC</td><td>AKSHAY M</td><td>AMALU SEBY</td><td>VICE PRINCIPAL</td></tr>
+ <tr><td>C.C.A</td><td>JYOTHIS GEORGE</td><td>VISMAYA V</td><td>Y RAMA PRASAD</td></tr>
+ <tr><td>ASSEMBLY</td><td>VIVEK RAM M J</td><td>KEERTHI KAMAL C K</td><td>K R SADANANDAN</td></tr>
+ <tr><td>SPORTS</td><td>ANAND KESAVAN A S</td><td>NITHYA JOSE</td><td>JOSSEN C ANTONY & JOSNA JOSEPH</td></tr>
+ <tr><td>MESS</td><td>ANURAJ P K</td><td>NEETHU M M</td><td>SANJEEV KUMAR VIDYARTHI</td></tr>
+ <tr><td>MEDICAL</td><td>SUMESH M</td><td>VISHNUPRIYA M</td><td>SREELATHA R</td></tr>
+ <tr><td>ARAVALI HOUSE</td><td>SUJITH K</td><td>HARSHA RAM T</td><td>VISWANATH DAS & T SHYLAJA</td></tr>
+ <tr><td>NILGIRI HOUSE</td><td>ASWIN K V</td><td>SHILPA P P</td><td>PRAMOD KUMAR V S & JANCY DAS</td></tr>
+ <tr><td>SHIVALIK HOUSE</td><td>SYAMPRASAD A K</td><td>IRENE ANNS ANTONY</td><td>P RAJESH & JANCY JOSEPH</td></tr>
+ <tr><td>UDAIGIRI HOUSE</td><td>MANU MARTIN</td><td>AKSHARA BHASKARAN</td><td>Y RAMA PRASAD & C M JINI</td></tr>
+ <tr><td>JR ARAVALI HOUSE</td><td>&nbsp;</td><td>HARSHA RAM T</td><td>SRIMATHI R</td></tr>
+ <tr><td>JR NILGIRI HOUSE</td><td>&nbsp;</td><td>AMALU SEBY</td><td>SHEENA L S</td></tr>
+ <tr><td>JR SHIVALIK HOUSE</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>JR UDAIGIRI HOUSE</td><td>SHOBHITH B</td><td>AKSHARA</td><td>I V PRASAD & SREEJA C K</td></tr>
+</tbody>
+
+
+
+
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/lobipanel/lobipanel.min.js"></script>
+
+        
+        <script src="js/DataTables/datatables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(function($) {                 
+                $(document).ready(function() {
+                    $('#tabledata').DataTable({
+                        "responsive": true
+                    } );
+                } );
+
+            });
+        </script>
+    </body>
+</html>
+<?php } ?>
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Leaders List</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css">
+        
+        <link rel="stylesheet" href="css/main.css" media="screen" >
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="top-navbar-fixed">
+        <div class="main-wrapper">
+            <div class="content-wrapper">
+                <div class="content-container">
+                    <div class="main-page">
+                        <div class="container-fluid">
+                            <div class="row page-title-div">
+                                <div class="col-md-6">
+                                    <h2 class="title">Leaders List</h2>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="row breadcrumb-div">
+                                <div class="col-md-6">
+                                    <ul class="breadcrumb">
+                                        <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                                        <li> 24th Batch</li>
+                                        <li class="active">Gregarious</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <div class="panel-title">
+                                                    <h5>View Leadership List</h5>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body p-20">
+                                                <table id="tabledata" class="display table table-striped table-bordered wrap" cellspacing="0" width="100%">
+                                                    
+
+<thead><tr class="tableizer-firstrow"><th>Class</th><th>Name of the Class Leader (Boy)</th><th>Name of the Class Leader (Girl)</th><th>Name of the Class Teacher</th></tr></thead>
+<tfoot><tr class="tableizer-firstrow"><th>Class</th><th>Name of the Class Leader (Boy)</th><th>Name of the Class Leader (Girl)</th><th>Name of the Class Teacher</th></tr></tfoot>
+
+
+<tbody>
+ <tr><td>VI A</td><td>ANAND KESAVAN A S</td><td>UNNIMAYA P</td><td>RAGHAVAN P</td></tr>
+ <tr><td>VI B</td><td>&nbsp;</td><td>&nbsp;</td><td>JESSY JOSSEN & K M RAJAN</td></tr>
+ <tr><td>VII A</td><td>JYOTHIS GEORGE</td><td>NEERAJA R</td><td>MURALI KRISHNAN & H DAMODARANANDA</td></tr>
+ <tr><td>VII B</td><td>HARIKRISHNAN</td><td>ANULAKSHMI P</td><td>K M RAJAN</td></tr>
+ <tr><td>VIII A</td><td>KARTHIK B</td><td>SREESANTHI C</td><td>H DAMODARANANDA</td></tr>
+ <tr><td>VIII B</td><td>JITHESH K</td><td>SHILPA P P</td><td>K M RAJAN</td></tr>
+ <tr><td>IX A</td><td>JISHNU E</td><td>IRENE ANNS ANTONY</td><td>H DAMODARANANDA</td></tr>
+ <tr><td>IX B</td><td>SHOBHITH B</td><td>SANGEETHA K</td><td>I V PRASADA</td></tr>
+ <tr><td>X A</td><td>MANU MARTIN</td><td>REVATHI P K</td><td>SOMAN P V</td></tr>
+ <tr><td>X B</td><td>SUMESH M</td><td>NAYANA N K</td><td>SREEJA C K</td></tr>
+ <tr><td>XI A</td><td>M MIDHUN KRISHNA</td><td>ARYA SANKAR T P</td><td>V SUDHAKAR SHARMA</td></tr>
+ <tr><td>XI B</td><td>SACHIN T JACOB</td><td>ANULAKSHMI P</td><td>T SHYLAJA</td></tr>
+ <tr><td>XII A</td><td>AKHIL EMMANUAL</td><td>ARYA SANKAR T P</td><td>V SUDHAKAR SHARMA</td></tr>
+ <tr><td>XII B</td><td>SACHIN T JACOB</td><td>ANULAKSHMI P</td><td>T SHYLAJA</td></tr>
+</tbody>
+
+
+
+
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/lobipanel/lobipanel.min.js"></script>
+
+        
+        <script src="js/DataTables/datatables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(function($) {                 
+                $(document).ready(function() {
+                    $('#tabledata').DataTable({
+                        "responsive": true
+                    } );
+                } );
+
+            });
+        </script>
+    </body>
+</html>
+<?php } ?>
+

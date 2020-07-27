@@ -16,8 +16,12 @@
         <link rel="stylesheet" href="css/main.css" media="screen" >
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #FFF; z-index:9999;}
+</style>
     </head>
     <body class="top-navbar-fixed">
+        <div id="cover"></div>
         <div class="main-wrapper">
             <div class="content-wrapper">
                 <div class="content-container">
@@ -32,7 +36,7 @@
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
-                                        <li><a href="/jnv"><i class="fa fa-home"></i> Home</a></li>
+                                        <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
                                         <li> 24th Batch</li>
                                         <li class="active">Gregarious</li>
                                     </ul>
@@ -142,6 +146,9 @@
                         "responsive": true
                     } );
                 } );
+                $(window).on('load', function() {
+                   $("#cover").hide();
+                });
 
             });
         </script>

@@ -44,10 +44,12 @@
 		.fa{
 		     color:#4183D7;
 		}
+		#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #000; z-index:9999;}
 	</style>
 	<link rel="shortcut icon" href="data/456.png" />
 </head>
 <body>
+	<div id="cover"></div>
 	<nav class="navbar navbar-expand-sm sticky-top" style="background:#4183D7 !important;">
 
 	  <a class="navbar-brand font-weight-bold font-italic" style="color: #FFF !important;border:none !important;">
@@ -163,5 +165,12 @@
 		</div>		
     </div>
 </div>
+<script type="text/javascript">
+	$(function($) {                 
+        $(window).on('load', function() {
+		   $("#cover").hide();
+		});
+    });
+</script>
 </body>
 </html>
